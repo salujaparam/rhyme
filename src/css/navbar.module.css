@@ -112,6 +112,20 @@
     padding:0;
   }
 }
+@media screen and (min-width: 992px) {
+  .nav-links{
+    font-size: 0rem;
+    margin: 0;
+    padding:0;
+  }
+  .nav-links a {
+    font-size: 1.5rem;
+    padding: 1rem 1rem 0.2rem 1.5rem;
+  }
+  .nav-center{
+    margin: 0 auto;
+  }
+}
 
 @media screen and (max-width: 460px) {
   .nav-links{
