@@ -88,15 +88,44 @@
   .navbar {
     padding: 0 2rem;
   }
-}
-
-@media screen and (min-width: 460px) {
-  .nav-links{
+    .nav-links{
     font-size: 0.8;
     margin: 0;
   }
   .nav-links a {
     padding: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .nav-links{
+    font-size: 0rem;
+    margin: 0;
+    padding:0;
+  }
+  .nav-links a {
+    font-size: 1rem;
+    padding: 0.3rem;
+  }
+  .nav-center{
+    margin: 0;
+    padding:0;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .nav-links{
+    font-size: 0rem;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-links a {
+    font-size: 1rem;
+    padding: 0.2rem;
+  }
+  .nav-center{
+    margin: 0;
+    padding:0;
   }
 }
 
