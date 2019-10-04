@@ -1,0 +1,24 @@
+.contain {
+    display: flex;
+    max-width: 50rem;
+    margin: 2px auto 2px auto;
+}
+
+.title{
+    padding: 2rem 0 1rem 0;
+}
+
+@media screen and (max-width: 576px) {
+    .contain{
+        display: flex;
+        flex-direction: column;
+        margin: 1px auto 1px auto;
+    }
+    .class {
+        text-align: center;
+    }
+
+    .age {
+        text-align: center;
+    }
+}

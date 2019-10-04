@@ -1,0 +1,23 @@
+.contain {
+    display: flex;
+    max-width: 50rem;
+    margin: 2px auto 2px auto;
+}
+
+.title{
+    padding-bottom: 1rem;
+}
+
+.image {
+    max-width: 250x;
+    max-height: 250px;
+    padding-right: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+    .contain{
+        display: flex;
+        flex-direction: column;
+        margin: 1px auto 1px auto;
+    }
+}

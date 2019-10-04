@@ -1,9 +1,14 @@
 import React from 'react'
+import Classes from './Classes'
+import StyledHero from './StyledHero'
+import Message from './Message'
 
 export default function About() {
     return (
         <div>
-            <h1>About</h1>
+            <StyledHero />
+            <Message />
+            <Classes />
         </div>
     )
 }
