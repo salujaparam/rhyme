@@ -6,7 +6,7 @@ import Home from '../components/Home'
 const HomePage = ({data}) => {
   return (
     <Layout>
-        <Home title={data.site.siteMetadata.title} />
+        <Home title={data.site.siteMetadata.title} description={data.site.siteMetadata.description}/>
     </Layout>
   )
 }
@@ -15,6 +15,8 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+        description
+        author
       }
     }
   }

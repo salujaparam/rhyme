@@ -12,6 +12,8 @@
 .service {
   margin: 2rem 0;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .service span {
   background: var(--primaryColor);
@@ -26,6 +28,6 @@
 
 .crop {
   height: 300px;
-  width: 400px;
+  width: 300px;
   overflow: hidden;
  }

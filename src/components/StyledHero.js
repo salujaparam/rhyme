@@ -37,4 +37,5 @@ export default styled(StyledHero)`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3rem;
 `
