@@ -6,6 +6,9 @@
   color: var(--mainWhite);
   padding-bottom: 0px;
   margin-bottom: 0px;
+  background: #2980B9;  
+  background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
 }
 .links a {
   display: inline-block;
