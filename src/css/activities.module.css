@@ -1,0 +1,12 @@
+.img {
+    width: 300px;
+    height: 300px;
+    padding-right: 0.5rem;
+}
+
+.img-container {
+    display: flex;
+    overflow: scroll;
+    padding-bottom: 10px;
+    margin-bottom: 2rem;
+}

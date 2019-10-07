@@ -2,13 +2,29 @@ import React from 'react'
 import Classes from './Classes'
 import StyledHero from './StyledHero'
 import Message from './Message'
+import { useStaticQuery, graphql } from 'gatsby'
 
-export default function About() {
+const query = graphql`
+  {
+    aboutImage:file(relativePath: {eq:"activities.jpg"}){
+      childImageSharp{
+        fluid(maxWidth: 600){
+            ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+  }
+`
+
+const About = () => {
+    const {aboutImage} = useStaticQuery(query);
     return (
         <div>
-            <StyledHero />
+            <StyledHero img={aboutImage.childImageSharp.fluid} />
             <Message />
             <Classes />
         </div>
     )
 }
+
+export default About

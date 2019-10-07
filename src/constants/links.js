@@ -4,10 +4,6 @@ export default [
         text: 'home'
     },
     {
-        path: '/gallery',
-        text: 'gallery'
-    },
-    {
         path: '/about',
         text: 'about'
     },
