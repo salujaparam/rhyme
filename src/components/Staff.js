@@ -6,7 +6,7 @@ import staff from '../constants/staff'
 const Staff = () => {
     return (
         <section className={styles.services}>
-            <Title title="Our" subtitle="Staff" />
+            <Title title="our" subtitle="staff" />
             <div className={styles.center}>
                 {
                     staff.map((item, index) => {
