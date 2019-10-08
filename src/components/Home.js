@@ -4,7 +4,6 @@ import Banner from './Banner'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import styles from '../css/home.module.css'
 import Staff from './Staff'
-import Title from './Title'
 
 const Home = ({title, description}) => {
     return (
@@ -18,7 +17,6 @@ const Home = ({title, description}) => {
                     </button>
                 </Banner>
             </StyledHero>
-            <Title title="our" subtitle="staff"/>
             <Staff />
         </div>
     )

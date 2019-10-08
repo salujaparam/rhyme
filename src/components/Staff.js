@@ -1,10 +1,12 @@
 import React from 'react'
 import styles from '../css/players.module.css'
 import staff from '../constants/staff'
+import Title from './Title'
 
 const Staff = () => {
     return (
         <section className={styles.services}>
+            <Title title="our" subtitle="staff"/>
             <div className={styles.center}>
                 {
                     staff.map((item, index) => {
