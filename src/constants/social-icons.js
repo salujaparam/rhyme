@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaFacebook, FaLinkedin, FaInstagram} from 'react-icons/fa'
+import {FaFacebook, FaWhatsapp, FaEnvelope} from 'react-icons/fa'
 
 export default [
     {
@@ -7,11 +7,11 @@ export default [
         url: 'https://www.facebook.com/Rhyme-Time-120503786018295/'
     },
     {
-        icon: <FaLinkedin />,
-        url: 'https://www.linkedin.com/in/param-saluja-8a011a171/'
+        icon: <FaWhatsapp />,
+        url: 'https://wa.me/918927611991'
     },
     {
-        icon: <FaInstagram />,
-        url: 'https://www.instagram.com/'
+        icon: <FaEnvelope />,
+        url: 'mailto:sanjusaluja1170@gmail.com?compose=new'
     }
 ]
