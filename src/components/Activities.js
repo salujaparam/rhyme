@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 import Title from './Title';
 import durgaPuja from '../constants/durgaPuja'
 import sports from '../constants/sports'
+import diwali from '../constants/diwali'
 import styles from '../css/activities.module.css'
 // import DurgaPuja from './DurgaPuja';
 
@@ -24,6 +25,14 @@ export default function Activities() {
     return (
         <Fragment>
             <StyledHero img={aboutImage.childImageSharp.fluid} />
+            <Title title="Diwali" subtitle="Celebration" />
+            <div className={styles.imgContainer}>
+            {
+              diwali.map((item, index) => {
+                return <img src={item} className={styles.img} key={index} alt="diwali" />
+              })
+            }
+            </div>
             <Title title="Durga Puja" subtitle="Celebration" />
             <div className={styles.imgContainer}>
             {
